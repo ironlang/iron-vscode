@@ -4,6 +4,9 @@
     "icon": "assets/iron.png",
     "publisher": "ironlang",
     "displayName": "Iron",
+    "repository": {
+        "url": "https://github.com/ironlang/iron-vscode"
+    },
     "description": "Syntax highlighting for the Iron programming language",
     "version": "0.3.4",
     "engines": {
