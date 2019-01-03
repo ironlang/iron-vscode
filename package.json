@@ -1,0 +1,37 @@
+{
+    "name": "iron-lang",
+    "preview": true,
+    "icon": "assets/iron.png",
+    "publisher": "ironlang",
+    "displayName": "Iron",
+    "description": "Syntax highlighting for the Iron programming language",
+    "version": "0.3.4",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "iron",
+                "aliases": [
+                    "Iron",
+                    "iron"
+                ],
+                "extensions": [
+                    ".fe"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "iron",
+                "scopeName": "source.fe",
+                "path": "./syntaxes/iron.tmLanguage.json"
+            }
+        ]
+    }
+}
