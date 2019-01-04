@@ -55,7 +55,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.iron",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(if|while|for|return|try|catch|let)\\b"
 			}, {
 				"name": "storage.type.iron",
 				"match": "\\b(String|Bool|(U|I)(8|16|32|64|128))\\b"
