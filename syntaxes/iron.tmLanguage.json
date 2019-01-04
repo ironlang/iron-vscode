@@ -9,6 +9,12 @@
 			"include": "#strings"
 		},
 		{
+			"comment": "Line comment",
+			"begin": "//",
+			"end": "\n",
+			"name":"comment.line"
+		},
+		{
 			"comment": "Function call",
 			"match": "\\b([A-Za-z][A-Za-z0-9_]*|_[A-Za-z0-9_]+)\\s*\\(",
 			"captures": {
