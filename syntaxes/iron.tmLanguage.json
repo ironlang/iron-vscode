@@ -9,6 +9,10 @@
 			"include": "#strings"
 		},
 		{
+			"match":"\\b(true|false|null)\\b",
+			"name":"constant.other"
+		},
+		{
 			"comment": "Line comment",
 			"begin": "//",
 			"end": "\n",
@@ -55,7 +59,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.iron",
-				"match": "\\b(if|else|match|while|for|return|try|catch|let)\\b"
+				"match": "\\b(import|as|if|else|match|while|for|return|try|catch|let)\\b"
 			}, {
 				"name": "storage.type.iron",
 				"match": "\\b(String|Bool|(U|I)(8|16|32|64|128))\\b"
