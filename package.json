@@ -8,7 +8,7 @@
         "url": "https://github.com/ironlang/iron-vscode"
     },
     "description": "Syntax highlighting for the Iron programming language",
-    "version": "0.3.7",
+    "version": "0.3.8",
     "engines": {
         "vscode": "^1.30.0"
     },
