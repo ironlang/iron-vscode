@@ -59,13 +59,13 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.iron",
-				"match": "\\b(import|as|if|else|match|while|for|return|try|catch|let)\\b"
+				"match": "\\b(public|from|type|implement|protocol|import|as|if|else|match|while|for|return|try|catch|let)\\b"
 			}, {
 				"name":"keyword.operator.iron",
-				"match":"(\\+|\\-|\\*|\\*\\*|\\band\\b|\\bnot\\b|\\bequals\\b|\\bor\\b|={1,2}|>|<)"
+				"match":"(!|\\+|\\-|\\*|\\*\\*|\\band\\b|\\bnot\\b|\\bequals\\b|\\bor\\b|={1,2}|>|<)"
 			}, {
 				"name": "storage.type.iron",
-				"match": "\\b(String|Bool|(U|I)(8|16|32|64|128))\\b"
+				"match": "\\b(Self|Type|Null|String|Bool|(U|I)(8|16|32|64|128))\\b"
 			}]
 		},
 		"strings": {
