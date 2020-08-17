@@ -1,14 +1,14 @@
 {
-    "name": "iron-lang",
+    "name": "lang",
     "preview": true,
     "icon": "assets/iron.png",
-    "publisher": "ironlang",
+    "publisher": "iron",
     "displayName": "Iron",
     "repository": {
         "url": "https://github.com/ironlang/iron-vscode"
     },
     "description": "Syntax highlighting for the Iron programming language",
-    "version": "0.3.8",
+    "version": "0.4.0",
     "engines": {
         "vscode": "^1.30.0"
     },
